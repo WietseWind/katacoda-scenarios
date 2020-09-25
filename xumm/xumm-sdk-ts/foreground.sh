@@ -1,1 +1,1 @@
-sleep 3 && welcome.sh
+while [ ! -f /usr/local/bin/welcome.sh ]; do sleep 1; done; welcome.sh
