@@ -1,21 +1,23 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "XUMM SDK TS Example",
+  "description": "Your first scenario with TS and XUMM",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "4 minutes",
   "details": {
     "intro": {
       "text": "intro.md",
       "credits": "Some Credits here and there"
     },
-    "steps": [{
-      "title": "Step 1 - This and That",
-      "courseData": "background.sh",
-      "data": "foreground.sh",
-      "background": "background.sh",
-      "foreground": "foreground.sh",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - This and That",
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "background": "background.sh",
+        "foreground": "foreground.sh",
+        "text": "step1.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     },
@@ -30,8 +32,7 @@
     "hidefinish": true,
     "uilayout": "vscode-terminal-split",
     "uieditorpath": "/root/",
-    "uisettings": "typescript",
-    "uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n"
+    "x-uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu:2004"
