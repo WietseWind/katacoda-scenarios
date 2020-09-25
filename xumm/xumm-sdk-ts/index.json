@@ -28,8 +28,8 @@
     }
   },
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
+    "x-hideintro": true,
+    "x-hidefinish": true,
     "uilayout": "vscode-terminal-split",
     "uieditorpath": "/root/",
     "x-uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n"
