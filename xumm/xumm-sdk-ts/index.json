@@ -24,9 +24,13 @@
     }
   },
   "environment": {
-    "x-hidefinish": true,
+    "hideintro": true,
+    "hidefinish": true,
     "uilayout": "vscode-terminal-split",
     "uieditorpath": "/root/",
+    "showide": true,
+    "idePort": 23000,
+    "uisettings": "typescript",
     "uimessage1": "\u001b[32mYour Interactive Terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n"
   },
   "backend": {
