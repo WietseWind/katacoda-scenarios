@@ -4,7 +4,7 @@
 #echo '{"files.exclude": {".*": true}, "workbench.startupEditor": "none"}' > ~/.vscode/settings.json
 
 apt install bsdtar -y
-curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/gabrielgrinberg/vsextensions/auto-run-command/1.6.0/vspackage | bsdtar -xvf - extension
+curl -L https://j6dfdci.dlvr.cloud/gabrielgrinberg.auto-run-command-1.6.0.vsix | bsdtar -xvf - extension
 mv extension /opt/.katacodacode/extensions/auto-run-command
 
 mkdir -p /opt/.katacodacode/user-data/User/
