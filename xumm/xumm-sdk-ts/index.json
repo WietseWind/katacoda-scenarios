@@ -23,7 +23,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "welcome.sh", "target": "/root/", "chmod": "+x"}
+        {"file": "welcome.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     }
   },
