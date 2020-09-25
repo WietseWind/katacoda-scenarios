@@ -10,6 +10,8 @@
     },
     "steps": [{
       "title": "Step 1 - This and That",
+      "courseData": "background.sh",
+      "data": "foreground.sh",
       "background": "background.sh",
       "foreground": "foreground.sh",
       "text": "step1.md"
