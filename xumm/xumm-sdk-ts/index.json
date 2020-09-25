@@ -4,16 +4,16 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - This and That",
-      "text": "step1.md",
-      "courseData": "background.sh",
-      "code": "foreground.sh"
-    }],
     "intro": {
       "text": "intro.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh",
       "credits": "Some Credits here and there"
     },
+    "steps": [{
+      "title": "Step 1 - This and That",
+      "text": "step1.md"
+    }],
     "finish": {
       "text": "finish.md"
     },
@@ -29,7 +29,7 @@
     "uilayout": "vscode-terminal-split",
     "uieditorpath": "/root/",
     "uisettings": "typescript",
-    "uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r"
+    "uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu:2004"
