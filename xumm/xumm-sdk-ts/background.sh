@@ -3,16 +3,16 @@
 #mkdir -p ~/.vscode
 #echo '{"files.exclude": {".*": true}, "workbench.startupEditor": "none"}' > ~/.vscode/settings.json
 
-#apt install bsdtar -y
-#curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/vsextensions/python/2020.5.86806/vspackage | bsdtar -xvf - extension
-#mv extension /opt/.katacodacode/extensions/mspython
+apt install bsdtar -y
+curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/gabrielgrinberg/vsextensions/auto-run-command/1.6.0/vspackage | bsdtar -xvf - extension
+mv extension /opt/.katacodacode/extensions/auto-run-command
 
 mkdir -p /opt/.katacodacode/user-data/User/
 cat << VSCODEEOF > /opt/.katacodacode/user-data/User/settings.json
 { 
   "workbench.startupEditor": "none", 
   "files.autoSave": "off",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "window.autoDetectColorScheme": false,
   "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Default Dark+",
@@ -22,7 +22,10 @@ cat << VSCODEEOF > /opt/.katacodacode/user-data/User/settings.json
   },
   "files.exclude": {
     "**/.*": true
-  }
+  },
+  "auto-run-command.rules": [
+    {"command": "workbench.action.terminal.new"}
+  ]
 }
 VSCODEEOF
 
