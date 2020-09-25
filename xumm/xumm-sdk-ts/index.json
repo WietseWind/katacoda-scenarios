@@ -5,13 +5,13 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
+      "title": "Step 1 - This and That",
+      "text": "step1.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
     }],
     "intro": {
       "text": "intro.md",
-      "courseData": "background.sh",
-      "code": "foreground.sh",
       "credits": "Some Credits here and there"
     },
     "finish": {
@@ -28,10 +28,9 @@
     "hidefinish": true,
     "uilayout": "vscode-terminal-split",
     "uieditorpath": "/root/",
-    "showide": true,
     "idePort": 23000,
     "uisettings": "typescript",
-    "uimessage1": "\u001b[32mYour Interactive Terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r"
   },
   "backend": {
     "imageid": "ubuntu:2004"
