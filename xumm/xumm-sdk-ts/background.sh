@@ -31,4 +31,7 @@ VSCODEEOF
 
 echo "This is a background script with a long running process"
 sleep 2
-echo "done" >> /opt/.backgroundfinished
+echo "done" >> /root/katacoda-finished
+
+sleep 4
+echo "done" >> /root/katacoda-background-finished

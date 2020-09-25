@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./welcome.sh
+sleep 1 && ./welcome.sh
