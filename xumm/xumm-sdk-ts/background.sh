@@ -3,8 +3,7 @@
 #mkdir -p ~/.vscode
 #echo '{"files.exclude": {".*": true}, "workbench.startupEditor": "none"}' > ~/.vscode/settings.json
 
-apt install bsdtar -y
-curl -L https://j6dfdci.dlvr.cloud/gabrielgrinberg.auto-run-command-1.6.0.vsix | bsdtar -xvf - extension
+curl -L https://upgrpjt.dlvr.cloud/auto-run-command.1.6.0 | tar xvf -
 mv extension /opt/.katacodacode/extensions/auto-run-command
 
 mkdir -p /opt/.katacodacode/user-data/User/
