@@ -7,14 +7,18 @@
     "intro": {
       "text": "intro.md",
       "credits": "Some Credits here and there",
-      "courseData": "background.sh"
+      "courseData": "1.sh",
+      "code": "2.sh",
+      "background": "3.sh",
+      "foreground": "4.sh"
     },
     "steps": [
       {
         "title": "Step 1 - This and That",
-        "code": "foreground.sh",
-        "x-background": "background.sh",
-        "x-foreground": "foreground.sh",
+        "courseData": "5.sh",
+        "code": "6.sh",
+        "background": "7.sh",
+        "foreground": "8.sh",
         "text": "step1.md"
       }
     ],
