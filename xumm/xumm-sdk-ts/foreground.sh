@@ -1,1 +1,1 @@
-sleep 1 && welcome.sh
+sleep 2 && welcome.sh
