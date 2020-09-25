@@ -23,7 +23,8 @@ cat << VSCODEEOF > /opt/.katacodacode/user-data/User/settings.json
     "**/.*": true
   },
   "auto-run-command.rules": [
-    {"command": "workbench.action.terminal.new"}
+    {"command": "workbench.action.terminal.new"},
+    {"command": "ls -lahs","message": "Super condition met. Running ","shellCommand": true}
   ]
 }
 VSCODEEOF
