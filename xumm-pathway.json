@@ -1,0 +1,17 @@
+{
+  "title": "XUMM Courses & playgrounds",
+  "description": "Learn how to use the XUMM API & platform, for developers & commerce.",
+  "icon": "fa-terminal",
+  "courses": [
+    {
+      "course_id": "xumm-sdk-ts",
+      "title": "XUMM SDK using Typescript",
+      "description": "Learn how to use the XUMM SDK in Typescript"
+    },
+    {
+      "course_id": "xumm-sdk-js",
+      "title": "XUMM SDK using Node (Javascript)",
+      "description": "Learn how to use the XUMM SDK NodeJS (Javascript)"
+    }
+  ]
+}
