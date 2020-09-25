@@ -32,7 +32,8 @@
     "x-hidefinish": true,
     "uilayout": "vscode-terminal-split",
     "uieditorpath": "/root/",
-    "x-uimessage1": "\u001b[32mYour XUMM SDK terminal.\r\nSo something by issueing the command: `echo Hi`\u001b[m\r\n",
+    "uimessage1": "\u001b[34mYour XUMM SDK terminal.\r\nPreparing your environment...\u001b[m\r\n",
+    "uimessage2": "\u001b[35mYour secondary tab.\r\nMagic will happen here.\u001b[m\r\n",
     "terminals": [
       {"name": "Compile TSC", "command": "htop", "target": "host01"}
     ]
