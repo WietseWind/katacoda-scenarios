@@ -1,3 +1,3 @@
-# XUMM SDK using Node (Javascript)
+# XUMM SDK using Node (javascript)
 
-Learn how to use the XUMM SDK NodeJS (Javascript)
+Learn how to use the XUMM SDK NodeJS (javascript)
